@@ -10,22 +10,12 @@ This tool extracts questions, answers, and images from JEE Mains and Advanced pr
 - Organizes output into a clean folder structure
 - Processes multiple PDFs in batch
 
-## Installation
-
-1. Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
 1. Place your JEE question paper PDFs in a folder named `qns-pdf` in the same directory as the script
 2. Run the script:
 
-```bash
-python pdf_extractor.py
-```
 
 This will process all PDFs in the `qns-pdf` folder and create an `extracted_questions` folder with the results.
 
